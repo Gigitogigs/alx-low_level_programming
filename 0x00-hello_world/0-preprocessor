@@ -1,9 +1,2 @@
 #!/bin/bash
-#include <stdio.h>
-
-/*preprocessor*/
-int main;
-{
-	printf("gcc $CFILE -o c");
-	return(0);
-}
+gcc $CFILE -o c
