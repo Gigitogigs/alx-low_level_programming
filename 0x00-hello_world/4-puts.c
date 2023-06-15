@@ -1,12 +1,11 @@
-/**
- * main-entry
- * 
- * return0
- */
 #include <stdio.h>
-int main
+/**
+ * main:code that prints a line
+ *
+ * return(0)
+ */
+int main()
 {
-	char mystr[]= "Programming is like building a multilingual puzzle";
-	puts(mystr);
-	return(0);
+puts(""Programming is like building a multilingual language"");
+return(0);
 }
