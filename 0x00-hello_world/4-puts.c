@@ -1,6 +1,11 @@
-#!/bin/bash
+/**
+ * main-entry
+ * 
+ * return0
+ */
 #include <stdio.h>
-int main{
+int main
+{
 	char mystr[]= "Programming is like building a multilingual puzzle";
 	puts(mystr);
 	return(0);
