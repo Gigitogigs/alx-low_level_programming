@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * puts - a function that prints every other character of a string,
+ * puts2 - a function that prints every other character of a string,
  * starting wuth the first character followed by a new line.
  * @str: An input string
  * Return: Nothin
  */
 void puts2(char *str)
 {
-	int len = 0,i = 0;
+	int len = 0, i = 0;
 
 	while (str[len] != '\0')
 		len++;
