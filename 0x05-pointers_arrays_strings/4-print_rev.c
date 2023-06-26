@@ -6,7 +6,7 @@
  * @s: an input string
  * Return: Nothing
  */
-void print_rev(char *)
+void print_rev(char *s)
 {
 	int len = 0;
 
@@ -14,7 +14,7 @@ void print_rev(char *)
 		len++;
 
 	while (len)
-		_putchaar(s[--len]);
+		_putchar(s[--len]);
 
 	_putchar('\n');
 }
